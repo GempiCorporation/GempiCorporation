@@ -1,4 +1,4 @@
-### Hi there 👋
+### Haloo Guyss udahNyoba masakan dari kami belum?  👋
 
 <!--
 **GempiCorporation/GempiCorporation** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
