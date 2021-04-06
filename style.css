@@ -14,13 +14,12 @@
     margin-top: 10px;
     width: 100%;
     height: 280px;
-    background-color: brown;
+}
 
-    /* penanda sementara */
-    line-height: 280px;
-    text-align: center;
-    font-size: large;
-    color: aliceblue;
+.caption h3 {
+    -webkit-text-stroke: 2px white;
+    color: #C00000;
+    font-weight: bold;
 }
 
 .menu {

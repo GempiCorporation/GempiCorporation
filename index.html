@@ -15,7 +15,28 @@
 <body>
     <h1>Hello World</h1>
     <div class="header">header</div>
-    <div class="slider">slider</div>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="assets/slider1.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>THE NEXT LEVEL TASTE!</h3>
+                </div>
+            </li>
+            <li>
+                <img src="assets/slider2.png"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>THE NEXT LEVEL TASTE!!</h3>
+                </div>
+            </li>
+            <li>
+                <img src="assets/slider3.png"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>THE NEXT LEVEL TASTE!!!</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div class="menu">menu</div>
     <div class="produk">produk</div>
     <div class="about">about</div>
@@ -26,5 +47,13 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            height: 280,
+            indicators: false,
+            interval: 2000
+        });
+    </script>
 </body>
 </html>
