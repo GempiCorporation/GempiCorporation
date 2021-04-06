@@ -1,0 +1,77 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+
+    /* penanda sementara */
+    line-height: 60px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+.slider {
+    margin-top: 10px;
+    width: 100%;
+    height: 280px;
+    background-color: brown;
+
+    /* penanda sementara */
+    line-height: 280px;
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+}
+
+.menu {
+    width: 784px;
+    height: 152px;
+    background-color: aqua;
+    margin-top: 60px;
+    margin-left: 291px;
+    margin-right: 291px;
+
+    /* penanda sementara */
+    line-height: 152px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+.produk {
+    width: 864px;
+    height: 916px;
+    margin: 110px 251px 120px 251px;
+    background-color: blue;
+
+    /* penanda sementara */
+    line-height: 916px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+.about {
+    width: 1000px;
+    height: 210px;
+    margin: 0 183px 75px 183px;
+    background-color: aquamarine;
+
+    /* penanda sementara */
+    line-height: 210px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+
+    /* penanda sementara */
+    line-height: 300px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
