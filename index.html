@@ -35,8 +35,8 @@
 </head>
 
 <body>
-  <!-- Header -->
 
+  <!-- Header -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="assets/contoh-logo-2.png"></a>
@@ -65,35 +65,63 @@
         </form>
       </div>
   </nav>
-
   <!-- AKhir header -->
 
   <!-- Slider/jumbotron -->
-
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="assets/slider1.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>THE NEXT LEVEL TASTE!</h3>
+                </div>
+            </li>
+            <li>
+                <img src="assets/slider2.png"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>THE NEXT LEVEL TASTE!!</h3>
+                </div>
+            </li>
+            <li>
+                <img src="assets/slider3.png"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>THE NEXT LEVEL TASTE!!!</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
   <!-- Akhir slider/jumbotron -->
 
 
   <!-- Menu -->
-
+    <div class="menu">menu</div>
   <!-- Akhir menu -->
 
 
   <!-- Produk -->
-
+    <div class="produk">produk</div>
   <!-- Akhir Produk -->
 
 
   <!-- About -->
-
+    <div class="about">about</div>
   <!-- Akhir about -->
 
 
   <!-- Footer -->
-
+    <footer>footer</footer>
   <!-- akhir footer -->
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            height: 280,
+            indicators: false,
+            interval: 2000
+        });
+    </script>
 </body>
 
 </html>
