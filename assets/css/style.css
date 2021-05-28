@@ -1,0 +1,214 @@
+.bagMenu {
+  border: 1px solid #C00000;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.isiMenu {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.cProduk {
+
+  border: 1px solid #C00000 !important;
+}
+
+.cGambar {
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+.aHarga {
+  background-color: #C00000 !important;
+}
+
+.bagAbout {
+  border: 1px solid #C00000;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 10px;
+}
+
+.sosialMedia {
+  text-align: center;
+}
+
+.kontakPerson img {
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.pFollow {
+  margin-top: 50px;
+  color: white;
+  font-size: 24px;
+}
+
+.sosmed {
+  margin-right: 20px;
+}
+
+.sosmed img {
+  margin-left: 25px;
+}
+
+.cGempi {
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 25px;
+}
+
+.isiAbout h3 {
+  text-align: center;
+  padding: 21px 0 25px 0;
+}
+
+.isiAbout h5 {
+  text-align: center;
+  padding: 0 69px 21px 69px;
+}
+
+.navbar-nav {
+  padding-left: 40% !important;
+}
+
+.nMenu a {
+  text-align: right;
+}
+
+.nav-link img {
+  margin-left: 50px;
+}
+
+.container-fluid {
+  border-bottom: 2px solid #C00000;
+}
+
+@media(max-width: 1125px) {
+  .navbar-nav {
+    padding-left: 0% !important;
+  }
+
+  .nMenu a {
+    text-align: left;
+  }
+
+  .nav-link img {
+    margin-left: 0;
+  }
+
+  .container-fluid {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #C00000;
+  }
+}
+
+@media(max-width: 768px) {
+  .carousel-inner {
+    height: 200px;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+
+  .isiAbout h3 {
+    text-align: center;
+  }
+
+  .isiAbout h5 {
+    text-align: center;
+    padding: 0 10px 10px 10px;
+  }
+}
+
+@media(max-width: 414px) {
+  .carousel-inner {
+    height: 200px;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+
+  .bagMenu {
+    border: 1px solid #C00000;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+  .isiMenu {
+    max-width: 40px;
+  }
+
+  .bagAbout {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+  .isiAbout h5 {
+    font-size: 17px;
+  }
+
+  footer .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sosialMedia {
+    font-size: 20px;
+  }
+
+  .pFollow {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+
+  .sosmed img {
+    max-width: 25px;
+  }
+
+  .cGempi {
+    font-size: 17px;
+  }
+}
+
+@media(max-width: 320px) {
+  .pFollow {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+
+  .sosmed {
+    width: fit-content;
+    margin-left: 28px;
+  }
+
+  .sosmed img {
+    max-width: 20px;
+  }
+
+  .cGempi {
+    font-size: 15px;
+  }
+}
