@@ -5,6 +5,34 @@
   border-radius: 5px;
 }
 
+.imgCart {
+  float: left;
+  margin-right: 5px;
+}
+
+.titleMkn {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.qtyMkn {
+  font-size: 10px;
+  color: gray;
+}
+
+.cartHarga {
+  color: #C00000;
+  float: right;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.modal-dialog {
+  top: 5vh;
+  left: 20.2vw;
+}
+
 .isiMenu {
   margin-top: 20px;
   border-radius: 20px;
@@ -109,6 +137,11 @@ footer {
     padding-bottom: 10px;
     border-bottom: 2px solid #C00000;
   }
+
+  .modal-dialog {
+    top: 0;
+    left: 0;
+  }
 }
 
 @media(max-width: 768px) {
@@ -135,6 +168,23 @@ footer {
 }
 
 @media(max-width: 414px) {
+  .titleMkn {
+    font-size: 12px;
+    margin-top: -1px;
+  }
+
+  .qtyMkn {
+    font-size: 10px;
+    color: gray;
+  }
+
+  .cartHarga {
+    color: #C00000;
+    float: right;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
   .carousel-inner {
     height: 200px;
   }
